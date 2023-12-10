@@ -41,7 +41,7 @@ header {
 }
 header.sticky {
   padding: 10px 16%;
-  background: var(--bg-color);
+  background: #0c0c0c;
   opacity: 0.9;
   transition: 0.3s;
 }
@@ -487,7 +487,7 @@ footer p {
     height: 100%;
     display: none;
     flex-direction: column;
-    background: linear-gradient(222deg, #888888, #171717, #000000);
+    background: rgba(0, 0, 0, 0.86);
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;

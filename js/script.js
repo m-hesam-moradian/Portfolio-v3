@@ -54,12 +54,12 @@ particlesJS("particles-js", {
   retina_detect: true,
 });
 var count_particles, stats, update;
-stats = new Stats();
-stats.setMode(0);
-stats.domElement.style.position = "absolute";
-stats.domElement.style.left = "0px";
-stats.domElement.style.top = "0px";
-document.body.appendChild(stats.domElement);
+// stats = new Stats();
+// stats.setMode(0);
+// stats.domElement.style.position = "absolute";
+// stats.domElement.style.left = "0px";
+// stats.domElement.style.top = "0px";
+// document.body.appendChild(stats.domElement);
 count_particles = document.querySelector(".js-count-particles");
 update = function () {
   stats.begin();
@@ -70,6 +70,10 @@ update = function () {
   requestAnimationFrame(update);
 };
 requestAnimationFrame(update);
+
+
+
+////
 const header = document.querySelector("header");
 window.addEventListener("scroll", () => {
   header.classList.toggle("sticky", window.scrollY > 0);
